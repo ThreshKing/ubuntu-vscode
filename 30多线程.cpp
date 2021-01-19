@@ -11,6 +11,7 @@ void* PrintHello(void* threadid)
     int tid = *((int*)threadid);
     cout << "Hello Runoob! 线程ID: " << tid << endl;
     pthread_exit(NULL); 
+    
 }
 
 int main()
@@ -27,7 +28,7 @@ int main()
         rc = pthread_create(&threads[i], NULL, PrintHello, (void*)&(indexes[i]));
         if(rc)
         {
-            cout << "Error： 无法创建线程，" << rc << endl;
+            cout << "Error，无法创建线程，" << rc << endl;
         }
     }
     pthread_exit(NULL);
