@@ -9,7 +9,7 @@
 
 using namespace std;
 
-#define FILENAME "empFile.txt"
+#define FILENAME "职工管理系统/empFile.txt"
 
 class WorkerManager
 {
