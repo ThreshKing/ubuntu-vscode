@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": ["-g", 
-                "${file}", "职工管理系统/boss.cpp", "职工管理系统/employee.cpp", "职工管理系统/workerManager.cpp", "职工管理系统/manager.cpp",
+                "${file}","speechManager.cpp",
                 "-std=c++11", 
                 "-o", 
                 "out/${fileBasenameNoExtension}.out"]
