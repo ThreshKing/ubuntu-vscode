@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": ["-g", 
-                "${file}","speechManager.cpp",
+                "${file}","manager.cpp", "student.cpp", "teacher.cpp","orderFile.cpp",
                 "-std=c++11", 
                 "-o", 
                 "out/${fileBasenameNoExtension}.out"]
